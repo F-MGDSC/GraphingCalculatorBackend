@@ -1,0 +1,14 @@
+x = float (input("Enter a number x: "))
+oprtr = (input("Enter +, -, /, or * "))
+y = float(input("Enter a number y:" ))
+
+if oprtr == "+":
+    print(x + y)
+elif op == "-":
+    print(x - y)
+elif op == "/":
+    print(x / y)
+elif op == "*":
+    print(x * y)
+else:
+    print("Please enter +, -, /, or *")
